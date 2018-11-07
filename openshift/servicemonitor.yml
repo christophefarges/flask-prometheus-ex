@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: python-scraper
+spec:
+  endpoints:
+    - interval: 30s
+      port: 8080-tcp
+  namespaceSelector:
+    matchNames:
+      - <python-namespace>
+  selector:
+    matchLabels:
+      app-monitoring: scrape-python
