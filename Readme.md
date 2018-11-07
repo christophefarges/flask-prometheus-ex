@@ -1,13 +1,13 @@
 # Collecting a python application telemetry with prometheus, prometheus-operator on openshift
 
-## Summary
+## Summary
 
 This repository contains the source files for a demo application showcasing the usage of the [https://github.com/prometheus/client_python
 ](prometheus_client) library to export python and applicative metrics data for prometheus to collect.
 
 
 
-## Prerequesites
+## Prerequesites
 
 1. [git](https://git-scm.com/downloads)
 2. [oc](https://github.com/openshift/origin/releases)
