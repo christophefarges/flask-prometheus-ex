@@ -65,7 +65,7 @@ You can query the metrics "python_*" or "ws_srv_*" metrics in the prometheus int
 
 The metric "ws_srv_func_now_count" will show you how many times the index of the application has been requested.
 
-* Troubleshooting
+## Troubleshooting
 
 If the metrics are not displayed in prometheus, you can check the following
 
